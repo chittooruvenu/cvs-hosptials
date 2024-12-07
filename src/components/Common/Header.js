@@ -31,7 +31,7 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="show-user">
-                 list of Users
+                 List Of Users
                 </Link>
               </li>
              
