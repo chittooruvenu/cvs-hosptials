@@ -96,6 +96,7 @@ const ShowUser = () => {
                         <thead>
                             <tr>
                                 <th>Id</th>
+                                 <th>Mobile</th>
                                 <th>Name</th>
                                 <th>E-Mail</th>
                                  <th>Actions</th>
@@ -110,6 +111,7 @@ const ShowUser = () => {
                                             <>
                                                 <tr>
                                                     <td>{element.id}</td>
+                                                      <td>{element.phone}</td>
                                                     <td>{element.fname}</td>
                                                     <td>{element.email}</td>
                                                       <td>
