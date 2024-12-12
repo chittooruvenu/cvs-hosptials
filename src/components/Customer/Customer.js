@@ -77,9 +77,9 @@ function Customer() {
               />
             </th>
             <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Dob</th>
-            <th scope="col">CreditLimit</th>
+            <th scope="col">Medicine Name</th>
+            <th scope="col">Expire Date</th>
+            <th scope="col">How Many Days</th>
             <th scope="col">Edit</th>
           </tr>
         </thead>

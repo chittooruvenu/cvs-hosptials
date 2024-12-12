@@ -21,7 +21,7 @@ const navigate = useNavigate();
       .post("http://localhost:8080/customer", data)
       .then(d => {
         console.log(d);
-        navigate('/customer-show');
+        navigate('/medicine-show');
       })
       .catch(err => alert(err));
   };
@@ -35,15 +35,15 @@ const navigate = useNavigate();
         }}
       >
         <div className="form-group">
-          <label>Name</label>
+          <label>Medicine Name</label>
           <input type="text" className="form-control form-control-sm" />
         </div>
         <div className="form-group">
-          <label>DOB</label>
+          <label>Expire Date</label>
           <input type="text" className="form-control form-control-sm" />
         </div>
         <div className="form-group">
-          <label>CreditLimit</label>
+          <label>How Many Days</label>
           <input type="text" className="form-control form-control-sm" />
         </div>
 

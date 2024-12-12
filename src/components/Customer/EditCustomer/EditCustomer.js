@@ -33,7 +33,7 @@ const navigate = useNavigate();
     axios
       .put(`http://localhost:8080/customer/${stateCust.id}`, stateCust)
       .then(d => {
-         navigate('/customer-show');
+         navigate('/medicine-show');
       })
       .catch(err => alert(err));
   };
@@ -47,7 +47,7 @@ const navigate = useNavigate();
         }}
       >
         <div className="form-group">
-          <label>Name</label>
+          <label>Medicine Name</label>
           <input
             type="text"
             value={stateCust.name}
@@ -64,7 +64,7 @@ const navigate = useNavigate();
           />
         </div>
         <div className="form-group">
-          <label>DOB</label>
+          <label>Expire Date</label>
           <input
             value={stateCust.dob}
             onChange={e => {
@@ -81,7 +81,7 @@ const navigate = useNavigate();
           />
         </div>
         <div className="form-group">
-          <label>CreditLimit</label>
+          <label>How Many Days</label>
           <input
             onChange={e => {
               let value = e.target.value;

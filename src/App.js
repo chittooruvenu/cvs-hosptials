@@ -29,10 +29,10 @@ function App() {
             <Route path="/user/:id" element={<User />} />
             <Route path="/create-user" element={<CreateUser />} />
             <Route path="/show-user" element={<ShowUser />} />
-             <Route path="/customer-show" element={<Customer />} />
+             <Route path="/medicine-show" element={<Customer />} />
             <Route path="/add" element={<AddCustomer />} />
          
-           <Route path="/customer-show/edit/:id" element={<EditCustomer />} />
+           <Route path="/medicine-show/edit/:id" element={<EditCustomer />} />
           </Routes>
           <Footer />
         </div>

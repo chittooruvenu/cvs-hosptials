@@ -2,6 +2,10 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./User.css";
+import Parent from './Parent';
+import { Link } from "react-router-dom";
+
+
 const EditUser = () => {
   const [user, setUser] = useState([]);
   const { id } = useParams();
@@ -24,12 +28,13 @@ const EditUser = () => {
 
   return (
     <div className="user mt-5">
+    <Parent data={user} />
       <table className="table table-bordered">
     <thead>
       <tr>
         <th>Firstname</th>
         <th>Lastname</th>
-        
+       
       </tr>
     </thead>
     <tbody>
@@ -44,7 +49,19 @@ const EditUser = () => {
       <tr>
         <td>Phone</td>
         <td>{user.phone}</td>
+        
       </tr>
+  <tr><td>
+  <Link to={`/add/`}> Add Medicines
+                     
+                    </Link>
+  </td>
+  <td>
+  <Link to={`/medicine-show/`}> Show Medicines
+                     
+                    </Link>
+  </td>
+  <td></td></tr>
     </tbody>
   </table>
     </div>
