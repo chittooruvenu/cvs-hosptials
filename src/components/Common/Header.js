@@ -26,19 +26,15 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="create-user">
-                  Create User
+                 Book Appointment
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="show-user">
-                 List Of Users
+                 List Of Patients
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="customer-show">
-                Medicines
-                </Link>
-              </li>
+           
              
             </ul>
           </div>
