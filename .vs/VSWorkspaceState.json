@@ -5,10 +5,12 @@
     "\\src",
     "\\src\\components",
     "\\src\\components\\Common",
+    "\\src\\components\\Customer",
+    "\\src\\components\\Customer\\AddCustomer",
+    "\\src\\components\\Customer\\EditCustomer",
     "\\src\\components\\Layout",
-    "\\src\\components\\Pages",
     "\\src\\components\\User"
   ],
-  "SelectedNode": "\\src\\components\\User\\ShowUser.js",
+  "SelectedNode": "\\src\\components\\Customer\\Customer.js",
   "PreviewInSolutionExplorer": false
 }

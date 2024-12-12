@@ -7,6 +7,9 @@ import User from "./components/User/User";
 import Header from "./components/Common/Header";
 import Footer from "./components/Common/Footer";
 import Home from "./components/Layout/Home";
+import Customer from "./components/Customer/Customer";
+import AddCustomer from "./components/Customer/AddCustomer/AddCustomer";
+import EditCustomer from "./components/Customer/EditCustomer/EditCustomer";
 /* npm install react-bootstrap bootstrap axios*/
 
 
@@ -26,8 +29,10 @@ function App() {
             <Route path="/user/:id" element={<User />} />
             <Route path="/create-user" element={<CreateUser />} />
             <Route path="/show-user" element={<ShowUser />} />
-              
-           
+             <Route path="/customer-show" element={<Customer />} />
+            <Route path="/add" element={<AddCustomer />} />
+         
+           <Route path="/customer-show/edit/:id" element={<EditCustomer />} />
           </Routes>
           <Footer />
         </div>
