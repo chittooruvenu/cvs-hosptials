@@ -34,6 +34,11 @@ export default function Header() {
                  List Of Users
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="customer-show">
+                Medicines
+                </Link>
+              </li>
              
             </ul>
           </div>
