@@ -39,7 +39,7 @@ const navigate = useNavigate();
           <input type="text" className="form-control form-control-sm" />
         </div>
         <div className="form-group">
-          <label>Expire Date</label>
+          <label>How Many Times</label>
           <input type="text" className="form-control form-control-sm" />
         </div>
         <div className="form-group">

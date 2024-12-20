@@ -21,7 +21,7 @@ function Customer() {
               select: false,
               id: d.id,
               name: d.name,
-              dob: new Date(d.dob).toDateString(),
+              dob: d.dob,
               creditlimit: d.creditlimit
             };
           })
@@ -78,7 +78,7 @@ function Customer() {
             </th>
             <th scope="col">#</th>
             <th scope="col">Medicine Name</th>
-            <th scope="col">Expire Date</th>
+            <th scope="col">How Many Times</th>
             <th scope="col">How Many Days</th>
             <th scope="col">Edit</th>
           </tr>
