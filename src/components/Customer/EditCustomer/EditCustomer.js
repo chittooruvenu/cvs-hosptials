@@ -21,7 +21,7 @@ const navigate = useNavigate();
         setstateCust({
           id: customer.id,
           name: customer.name,
-          dob: new Date(customer.dob).toISOString().split("T")[0],
+          dob: customer.dob,
           creditlimit: customer.creditlimit
         });
       })
@@ -64,7 +64,7 @@ const navigate = useNavigate();
           />
         </div>
         <div className="form-group">
-          <label>Expire Date</label>
+          <label>How Many Times</label>
           <input
             value={stateCust.dob}
             onChange={e => {
