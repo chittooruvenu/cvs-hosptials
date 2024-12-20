@@ -4,7 +4,7 @@ import axios from "axios"
 import Spinner from 'react-bootstrap/Spinner';
 import Pagination from 'react-bootstrap/Pagination';
 import { Link } from "react-router-dom";
-/* npm install react-bootstrap bootstrap axios*/
+/* npm install react-bootstrap bootstrap axios test*/
 /*https://github.com/harsh17112000/pagination_react/blob/main/src/componetns/Home.js
 https://www.youtube.com/watch?v=qhtuXPDzfXA
 */
